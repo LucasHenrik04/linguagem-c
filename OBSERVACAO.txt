@@ -1,0 +1,47 @@
+TIPOS DE DADOS!!!
+
+- int ( inteiros)
+
+- char (letras, lembrando que para colocar a quantidade de letras que vc quer precisa estar entre [] )
+
+- float (numeros com casa decimais ou fracionarios)
+
+-double ( float 2 com precisáo dupla)
+
+-enum ( dados enumerados posibilitam os tipos definidos pelo usuario)
+
+-bool ( true or false)
+
+-void ( valores que ocupam 0 bits e nao possuem valor, ausencia de tipo)
+
+-pointer (endereco de memoria)
+
+#define <nome> e o valor ( CONSTANTE, VARIAVEL QUE NAO MUDA O VALOR)
+
+MODIFICADORES DE TIPOS DE DADOS:
+
+- unsigned (declarar que um valor numerico nao tera sinal)
+- short (reduz a capacidade de armazenamento)
+- long (aumenta a capacidade de armazenamento)
+
+exemplos : - long int , - unsigned float
+
+PROGAMACAO!!!
+
+NÁO ESQUECER DO ";" 
+NÁO ESQUECER QUE NO SCANF PRECISA ESTAR COM O TIPO DE DADO COM % E O & JUNTO O NOME DA VARIAVEL POR EXEMPLO ( scanf ("%f", &nome da variavevl)
+
+OPERADORES LOGICOS
+
+CONJUNÇAO ("e" logico: && - EXEMPLO (PRECISO DE OVO E LEITE) verdadeiros ambos
+DISJUNÇAO ("OU" logico: || - EXEMPLO ( PRECISO DE OVO OU LEITE) apenas um verdadeiro 
+INVERSAO (negaçao - "nao logico": ! - ele inverte o valor logico 
+
+VETORES - INDICE DE NUMEROS
+
+STRINGS - VETORES DE CARACTER, TIPO TEXTO 
+
+STRCPY - EM STRINGS PARA ALTERAR O VALOR DE UMA STRING USA STRCPY (DESTINO (STRING1), ORIGEM(STRING 2)), NAO USAR =
+STRCAT - COLOCAR 2 STRING JUNTA
+STRLEN - MOSTRA O TAMANHO DA STRING
+STRCMP - COMPARA AS STRINGS, se for igual ele retorna o valor 0 
